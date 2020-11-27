@@ -10,3 +10,9 @@
 [submodule "mimir-solutions-site"]
 	path = mimir-solutions-site
 	url = git@github.com:Mimir-Solutions/mimir-solutions-site.git
+[submodule "pantheon-ecosystem"]
+	path = pantheon-ecosystem
+	url = git@github.com:Mimir-Solutions/pantheon-ecosystem.git
+[submodule "holyzeppelin"]
+	path = holyzeppelin
+	url = git@github.com:Mimir-Solutions/holyzeppelin.git
