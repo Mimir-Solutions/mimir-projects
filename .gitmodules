@@ -7,9 +7,6 @@
 [submodule "mimir-solutions-sales-protocol"]
 	path = mimir-solutions-sales-protocol
 	url = git@github.com:Mimir-Solutions/mimir-solutions-sales-protocol.git
-[submodule "holyzeppelin"]
-	path = holyzeppelin
-	url = git@github.com:Mimir-Solutions/holyzeppelin.git
 [submodule "mimir-solutions-site"]
 	path = mimir-solutions-site
 	url = git@github.com:Mimir-Solutions/mimir-solutions-site.git
