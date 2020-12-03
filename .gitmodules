@@ -19,3 +19,9 @@
 [submodule "authorization-protocol"]
 	path = authorization-protocol
 	url = git@github.com:Mimir-Solutions/authorization-protocol.git
+[submodule "FOMO"]
+	path = FOMO
+	url = git@github.com:Mimir-Solutions/FOMO.git
+[submodule "stablecoins"]
+	path = stablecoins
+	url = git@github.com:Mimir-Solutions/stablecoins.git
