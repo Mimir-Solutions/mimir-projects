@@ -19,3 +19,6 @@
 [submodule "stablecoins"]
 	path = stablecoins
 	url = git@github.com:Mimir-Solutions/stablecoins.git
+[submodule "telikos-dao\\tokens\\FOMO"]
+	path = telikos-dao\\tokens\\FOMO
+	url = git@github.com:Mimir-Solutions/FOMO.git
