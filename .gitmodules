@@ -19,3 +19,6 @@
 [submodule "mimir-dao"]
 	path = mimir-dao
 	url = git@github.com:Mimir-Solutions/mimir-dao.git
+[submodule "telikos-dao-projects"]
+	path = telikos-dao-projects
+	url = git@github.com:Mimir-Solutions/telikos-dao-projects.git
