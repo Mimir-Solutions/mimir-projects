@@ -1,6 +1,3 @@
-[submodule "telikos-dao/tokens/FOMO"]
-	path = telikos-dao/tokens/FOMO
-	url = git@github.com:Mimir-Solutions/FOMO.git
 [submodule "pantheon-ecosystem"]
 	path = pantheon-ecosystem
 	url = git@github.com:Mimir-Solutions/pantheon-ecosystem.git
