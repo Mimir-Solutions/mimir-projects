@@ -1,0 +1,12 @@
+[submodule "holyzeppelin"]
+	path = holyzeppelin
+	url = git@github.com:Mimir-Solutions/holyzeppelin.git
+[submodule "gemini-token"]
+	path = gemini-token
+	url = git@github.com:Mimir-Solutions/gemini-token.git
+[submodule "janus-token"]
+	path = janus-token
+	url = git@github.com:Mimir-Solutions/janus-token.git
+[submodule "00-snippets/eris-token"]
+	path = 00-snippets/eris-token
+	url = git@github.com:Mimir-Solutions/eris-token.git
