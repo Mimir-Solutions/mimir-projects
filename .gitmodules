@@ -10,3 +10,9 @@
 [submodule "00-snippets/eris-token"]
 	path = 00-snippets/eris-token
 	url = git@github.com:Mimir-Solutions/eris-token.git
+[submodule "pantheon-sales-platform"]
+	path = pantheon-sales-platform
+	url = git@github.com:Mimir-Solutions/pantheon-sales-platform.git
+[submodule "pantheon-asset-management-platform"]
+	path = pantheon-asset-management-platform
+	url = git@github.com:Mimir-Solutions/pantheon-asset-management-platform.git
