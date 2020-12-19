@@ -16,3 +16,9 @@
 [submodule "pantheon-asset-management-platform"]
 	path = pantheon-asset-management-platform
 	url = git@github.com:Mimir-Solutions/pantheon-asset-management-platform.git
+[submodule "auditing_platform"]
+	path = auditing_platform
+	url = git@github.com:Mimir-Solutions/auditing_platform.git
+[submodule "contract-workflow-management"]
+	path = contract-workflow-management
+	url = git@github.com:Mimir-Solutions/contract-workflow-management.git
