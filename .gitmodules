@@ -19,3 +19,6 @@
 [submodule "contract-workflow-management"]
 	path = contract-workflow-management
 	url = git@github.com:Mimir-Solutions/contract-workflow-management.git
+[submodule "gemini-token"]
+	path = gemini-token
+	url = git@github.com:Mimir-Solutions/gemini-token.git
