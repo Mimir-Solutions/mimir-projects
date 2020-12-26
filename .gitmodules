@@ -22,3 +22,6 @@
 [submodule "gemini-token"]
 	path = gemini-token
 	url = git@github.com:Mimir-Solutions/gemini-token.git
+[submodule "rena-exchange"]
+	path = rena-exchange
+	url = git@github.com:Mimir-Solutions/rena-exchange.git
