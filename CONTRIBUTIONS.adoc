@@ -1,0 +1,97 @@
+= CONTRIBUTIONS
+
+All code and documentation is published under the Afero GNU Public License V3.
+The Software license can be found in the LICENSE file.
+
+The project summary and installation / build instructions are in the README.adoc
+
+== Tools
+
+We recommend using VSCode for contributions.
+The content and code controbution atandardizations facilitate usage of VSCode for all contributions.
+Other tools may be used, provided they produce compatible files saved in thsi repo.
+
+VSCode can be downloaded link:https://code.visualstudio.com/Download[here].
+
+Public tasks are tracked on GitHub using Issues.
+You may contribute by forking this repository, and offering a pull request with your changes.
+
+Private tasks are tracked with a private Phabricator instance.
+
+https://projects.mimirsolutions.tech/
+
+Access is reserved for internal team memebers.
+You will offered access if you should have access.
+
+== Documentation Contributions
+
+All projects are documented.
+Documentation is stored in the doc/ path.
+
+Documentation is written in link:https://asciidoctor.org/[AsciiDoc] format.
+AsciiDoc format uses the .adoc file extention and notation similar to Markddown.
+The file content is plain text, facilitiating versioning and reuse.
+The writer's guide can be found in the link:https://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoctor Writer's Guide].
+And a cheatsheet is available link:http://themes.asciidoctor.org/preview/[AsciiDoctor Writer's Guide Preview] and link:https://asciidoc.org/userguide.html[AsciiDoc User Guide].
+
+This will facilitate rendering this content into websites, documentation, and promotional material.
+AsciiDoc also support embedding several plain text graphing and diagraming formats.
+
+A VSCode plugin for AsciiDoc is available link:https://marketplace.visualstudio.com/items?itemName=asciidoctor.asciidoctor-vscode[here].
+
+All workflows are diagramed.
+All software architectures are diagramed.
+Diagrams are stored in docs/diagrams
+
+Diagrams are completed using either UMLet or draw.io
+
+UMLet diagrams are built using the VSCode plugin below.
+Other tools can be used, but must produce compatible files that can be saved in this repositoriy.
+Current file standard is .uxf
+https://marketplace.visualstudio.com/items?itemName=TheUMLetTeam.umlet
+
+draw.io diagrams are built using the VSCode plugin below.
+Other tools can be used, but must produce compatible files that can be savd in this repository.
+Current file standard is .drawio.svg 
+https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio
+
+== Code contributuons
+
+Projects are built using Hardhat with Truffle integrations as needed.
+Projects are built and tested on link:https://my.truffleteams.com/[Truffle Teams].
+All code will have 100% test coverage for positive and negative paths.
+The project will also have end-to-end tests simulating trading activity and volume.
+
+VSCode supports Solidity development using the following plugins:
+
+* link:https://marketplace.visualstudio.com/items?itemName=tintinweb.solidity-visual-auditor[Solidity Visual Developer]
+
+Tests will include usage of the following tools.
+
+* link:https://github.com/sc-forks/solidity-coverage[solidity-coverage]
+* link:https://github.com/crytic/slither[Slither]
+* link:https://github.com/trailofbits/manticore[Manticore]
+* link:https://github.com/ConsenSys/mythril[Mythril]
+* link:https://github.com/crytic/echidna[Echidna]
+
+Software development can be used to assit with documentation and diagraming.
+
+* link:https://github.com/pventuzelo/octopus[Octopus]
+* link:https://github.com/OpenZeppelin/solidity-docgen[solidity-docgen]
+
+Releases will include the following reports
+
+* link:https://mythx.io/[MythX]
+* link:https://tool.smartdec.net/[Smart Check]
+* link:https://contract.guardstrike.com/#/scan[Guard Strike]
+* link:https://github.com/ConsenSys/surya[Surya] (included in Solidity Visual Developer)
+* link:https://github.com/raineorshine/solgraph[solgraph]
+* link:https://github.com/blockchainsllc/piet[Piet]
+
+Some tools are still under consideration or useful for error analysis
+
+* link:https://github.com/ethereum/evmlab[EVM Tools]
+* link:https://github.com/fergarrui/ethereum-graph-debugger[Ethereum Graph Debugger]
+
+While dependencies are still under development they are included as submodules in the contracts/dependencies path.
+We recommend using link:https://www.gitkraken.com/[GitKraken] to easily manage submodules.

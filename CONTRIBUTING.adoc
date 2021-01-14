@@ -1,0 +1,162 @@
+= CONTRIBUTIONS
+
+All code and documentation is published under the Afero GNU Public License V3.
+The Software license can be found in the LICENSE file.
+
+The project summary and installation / build instructions are in the README.adoc
+
+== Tools
+
+We recommend using VSCode for contributions.
+The content and code controbution atandardizations facilitate usage of VSCode for all contributions.
+Other tools may be used, provided they produce compatible files saved in thsi repo.
+
+VSCode can be downloaded link:https://code.visualstudio.com/Download[here].
+
+Public tasks are tracked on GitHub using Issues.
+You may contribute by forking this repository, and offering a pull request with your changes.
+
+Private tasks are tracked with a private Phabricator instance.
+
+https://projects.mimirsolutions.tech/
+
+Access is reserved for internal team memebers.
+You will offered access if you should have access.
+
+== Documentation Contributions
+
+All projects are documented.
+Documentation is stored in the doc/ path.
+
+Documentation is written in link:https://asciidoctor.org/[AsciiDoc] format.
+AsciiDoc format uses the .adoc file extention and notation similar to Markddown.
+The file content is plain text, facilitiating versioning and reuse.
+The writer's guide can be found in the link:https://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoctor Writer's Guide].
+And a cheatsheet is available link:http://themes.asciidoctor.org/preview/[AsciiDoctor Writer's Guide Preview] and link:https://asciidoc.org/userguide.html[AsciiDoc User Guide].
+
+This will facilitate rendering this content into websites, documentation, and promotional material.
+AsciiDoc also support embedding several plain text graphing and diagraming formats.
+
+A VSCode plugin for AsciiDoc is available link:https://marketplace.visualstudio.com/items?itemName=asciidoctor.asciidoctor-vscode[here].
+
+All workflows are diagramed.
+All software architectures are diagramed.
+Diagrams are stored in docs/diagrams
+
+Diagrams are completed using either UMLet or draw.io
+
+UMLet diagrams are built using the VSCode plugin below.
+Other tools can be used, but must produce compatible files that can be saved in this repositoriy.
+Current file standard is .uxf
+https://marketplace.visualstudio.com/items?itemName=TheUMLetTeam.umlet
+
+draw.io diagrams are built using the VSCode plugin below.
+Other tools can be used, but must produce compatible files that can be savd in this repository.
+Current file standard is .drawio.svg 
+https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio
+
+== Code contributuons
+
+Projects are built using Hardhat with Truffle integrations as needed.
+Projects are built and tested on link:https://my.truffleteams.com/[Truffle Teams].
+All code will have 100% test coverage for positive and negative paths.
+The project will also have end-to-end tests simulating trading activity and volume.
+
+VSCode supports Solidity development using the following plugins:
+
+* link:https://marketplace.visualstudio.com/items?itemName=tintinweb.solidity-visual-auditor[Solidity Visual Developer]
+
+Tests will include usage of the following tools.
+
+* link:https://github.com/sc-forks/solidity-coverage[solidity-coverage]
+* link:https://github.com/crytic/slither[Slither]
+* link:https://github.com/trailofbits/manticore[Manticore]
+* link:https://github.com/ConsenSys/mythril[Mythril]
+* link:https://github.com/crytic/echidna[Echidna]
+
+Software development can be used to assit with documentation and diagraming.
+
+* link:https://github.com/pventuzelo/octopus[Octopus]
+* link:https://github.com/OpenZeppelin/solidity-docgen[solidity-docgen]
+
+Releases will include the following reports
+
+* link:https://mythx.io/[MythX]
+* link:https://tool.smartdec.net/[Smart Check]
+* link:https://contract.guardstrike.com/#/scan[Guard Strike]
+* link:https://github.com/ConsenSys/surya[Surya] (included in Solidity Visual Developer)
+* link:https://github.com/raineorshine/solgraph[solgraph]
+* link:https://github.com/blockchainsllc/piet[Piet]
+
+Some tools are still under consideration or useful for error analysis
+
+* link:https://github.com/ethereum/evmlab[EVM Tools]
+* link:https://github.com/fergarrui/ethereum-graph-debugger[Ethereum Graph Debugger]
+
+While dependencies are still under development they are included as submodules in the contracts/dependencies path.
+We recommend using link:https://www.gitkraken.com/[GitKraken] to easily manage submodules.
+
+Contributing to OpenZeppelin Contracts
+=======
+
+We really appreciate and value contributions to OpenZeppelin Contracts. Please take 5' to review the items listed below to make sure that your contributions are merged as soon as possible.
+
+## Contribution guidelines
+
+Smart contracts manage value and are highly vulnerable to errors and attacks. We have very strict [guidelines], please make sure to review them!
+
+## Creating Pull Requests (PRs)
+
+As a contributor, you are expected to fork this repository, work on your own fork and then submit pull requests. The pull requests will be reviewed and eventually merged into the main repo. See ["Fork-a-Repo"](https://help.github.com/articles/fork-a-repo/) for how this works.
+
+## A typical workflow
+
+1) Make sure your fork is up to date with the main repository:
+
+```
+cd openzeppelin-contracts
+git remote add upstream https://github.com/OpenZeppelin/openzeppelin-contracts.git
+git fetch upstream
+git pull --rebase upstream master
+```
+NOTE: The directory `openzeppelin-contracts` represents your fork's local copy.
+
+2) Branch out from `master` into `fix/some-bug-#123`:
+(Postfixing #123 will associate your PR with the issue #123 and make everyone's life easier =D)
+```
+git checkout -b fix/some-bug-#123
+```
+
+3) Make your changes, add your files, commit, and push to your fork.
+
+```
+git add SomeFile.js
+git commit "Fix some bug #123"
+git push origin fix/some-bug-#123
+```
+
+4) Run tests, linter, etc. This can be done by running local continuous integration and make sure it passes.
+
+```bash
+npm test
+npm run lint
+```
+
+5) Go to [github.com/OpenZeppelin/openzeppelin-contracts](https://github.com/OpenZeppelin/openzeppelin-contracts) in your web browser and issue a new pull request.
+
+*IMPORTANT* Read the PR template very carefully and make sure to follow all the instructions. These instructions
+refer to some very important conditions that your PR must meet in order to be accepted, such as making sure that all tests pass, JS linting tests pass, Solidity linting tests pass, etc.
+
+6) Maintainers will review your code and possibly ask for changes before your code is pulled in to the main repository. We'll check that all tests pass, review the coding style, and check for general code correctness. If everything is OK, we'll merge your pull request and your code will be part of OpenZeppelin.
+
+*IMPORTANT* Please pay attention to the maintainer's feedback, since its a necessary step to keep up with the standards OpenZeppelin attains to.
+
+## All set!
+
+If you have any questions, feel free to post them to github.com/OpenZeppelin/openzeppelin-contracts/issues.
+
+Finally, if you're looking to collaborate and want to find easy tasks to start, look at the issues we marked as ["Good first issue"](https://github.com/OpenZeppelin/openzeppelin-contracts/labels/good%20first%20issue).
+
+Thanks for your time and code!
+
+[guidelines]: GUIDELINES.md
