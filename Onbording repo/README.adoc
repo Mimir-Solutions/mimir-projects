@@ -1,0 +1,10 @@
+doc's info links:
+
+Ethereum Name Service (WNS)
+1)https://docs.ens.domains/
+ETHMail
+2)https://ethmail.cc/howto.html
+
+3)https://web.ethmail.cc/
+
+4)https://auth.cryptoverse.cc/keys/mykeys
