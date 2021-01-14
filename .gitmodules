@@ -25,3 +25,6 @@
 [submodule "smart-contract-security-standards"]
 	path = smart-contract-security-standards
 	url = git@github.com:Mimir-Solutions/smart-contract-security-standards.git
+[submodule "authorization-platform"]
+	path = authorization-platform
+	url = git@github.com:Mimir-Solutions/authorization-platform.git
