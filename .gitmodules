@@ -31,3 +31,6 @@
 [submodule "olympus"]
 	path = olympus
 	url = git@github.com:Mimir-Solutions/olympus.git
+[submodule "onboarding"]
+	path = onboarding
+	url = git@github.com:Mimir-Solutions/onboarding.git
