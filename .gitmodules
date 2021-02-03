@@ -40,3 +40,12 @@
 [submodule "mimir-solutions-prospectus"]
 	path = mimir-solutions-prospectus
 	url = git@github.com:Mimir-Solutions/mimir-solutions-prospectus.git
+[submodule "distributed-identity-management"]
+	path = distributed-identity-management
+	url = git@github.com:Mimir-Solutions/distributed-identity-management.git
+[submodule "rules-ecosystem"]
+	path = rules-ecosystem
+	url = git@github.com:Mimir-Solutions/rules-ecosystem.git
+[submodule "thoth"]
+	path = thoth
+	url = git@github.com:Mimir-Solutions/thoth.git
