@@ -34,3 +34,9 @@
 [submodule "onboarding"]
 	path = onboarding
 	url = git@github.com:Mimir-Solutions/onboarding.git
+[submodule "mimir-plans"]
+	path = mimir-plans
+	url = git@github.com:Mimir-Solutions/mimir-plans.git
+[submodule "mimir-solutions-prospectus"]
+	path = mimir-solutions-prospectus
+	url = git@github.com:Mimir-Solutions/mimir-solutions-prospectus.git
