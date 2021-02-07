@@ -49,3 +49,6 @@
 [submodule "thoth"]
 	path = thoth
 	url = git@github.com:Mimir-Solutions/thoth.git
+[submodule "dseth"]
+	path = dseth
+	url = git@github.com:Mimir-Solutions/dseth.git
